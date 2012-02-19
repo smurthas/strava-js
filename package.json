@@ -1,12 +1,13 @@
 {
     "name": "strava-js",
     "description": "Simple Strava API client",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
     "keywords": ["strava", "api"],
     "main" : "strava.js",
     "dependencies": {
-        "request": ">=2.9.3"
+        "request": ">=2.9.3",
+        "async": "0.1.16"
     },
     "repository" : {"type": "git" , "url": "http://github.com/smurthas/flickr-js.git" },
     "engines": { "node": ">=0.4.6 <0.7.0" }
